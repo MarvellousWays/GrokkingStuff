@@ -18,6 +18,6 @@ int recursionFactorial(int a){
 
 int main(){
     int factorial = recursionFactorial(5);
-    std::cout >> "Factorial value is "+factorial>>std::endl;
+    std::cout << "Factorial value is "<<factorial>>std::endl;
     return 0;
 }
